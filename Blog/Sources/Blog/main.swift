@@ -30,5 +30,5 @@ try Blog().publish(using: [
     .generateHTML(withTheme: .foundation),
     .generateRSSFeed(including: []),
     .generateSiteMap(),
-    .deploy(using: .gitHub("yourGitHubUsername/yourRepositoryName"))
+    // .deploy(using: .gitHub("yourGitHubUsername/yourRepositoryName"))
 ])
